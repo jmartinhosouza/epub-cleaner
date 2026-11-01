@@ -8,7 +8,7 @@ The goal is to transform EPUBs from different sources into visually more consist
 
 For each `.epub` file found in the current directory and its subdirectories, the script:
 
-* removes all images to save storage;
+* removes all images in order to save storage;
 * generates a simple cover from the title and author;
 * removes existing metadata, preserving only the title, author, and language;
 * removes the original stylesheets;
